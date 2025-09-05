@@ -1,9 +1,9 @@
-package com.webservicemongodb.repository;
+package com.webservicemongodb.myfirstmongodb.repository;
 
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 
-import com.webservicemongodb.domain.User;
+import com.webservicemongodb.myfirstmongodb.domain.User;
 
 @Repository
 public interface UserRepository extends MongoRepository<User,String> {

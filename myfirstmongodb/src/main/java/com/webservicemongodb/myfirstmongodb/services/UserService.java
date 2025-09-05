@@ -1,12 +1,12 @@
-package com.webservicemongodb.services;
+package com.webservicemongodb.myfirstmongodb.services;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.webservicemongodb.domain.User;
-import com.webservicemongodb.repository.UserRepository;
+import com.webservicemongodb.myfirstmongodb.domain.User;
+import com.webservicemongodb.myfirstmongodb.repository.UserRepository;
 
 @Service
 public class UserService {

@@ -1,4 +1,4 @@
-package com.webservicemongodb.resources;
+package com.webservicemongodb.myfirstmongodb.resources;
 
 import java.util.List;
 
@@ -7,8 +7,8 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.webservicemongodb.domain.User;
-import com.webservicemongodb.services.UserService;
+import com.webservicemongodb.myfirstmongodb.domain.User;
+import com.webservicemongodb.myfirstmongodb.services.UserService;
 
 import org.springframework.web.bind.annotation.RequestMethod;
 

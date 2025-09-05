@@ -1,4 +1,4 @@
-package com.webservicemongodb.domain;
+package com.webservicemongodb.myfirstmongodb.domain;
 
 import java.io.Serializable;
 
