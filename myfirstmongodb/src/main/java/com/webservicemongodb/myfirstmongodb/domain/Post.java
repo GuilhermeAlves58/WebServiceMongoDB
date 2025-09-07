@@ -66,7 +66,7 @@ public class Post implements Serializable {
         return author;
     }
 
-    public void setAuthorDTO(AuthorDTO authorDTO) {
+     public void setAuthor(AuthorDTO author) {
         this.author = author;
     }
     
